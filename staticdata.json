@@ -1,0 +1,28 @@
+{
+    "cells": [
+        {
+            "title": "My Journey into enterprise design at IBM",
+            "image": "http://placehold.it/325x220",
+            "timeline": "2016-2017",
+            "company": "IBM"
+        },
+        {
+            "title": "Paddle: Iterate, Repeat",
+            "image": "http://placehold.it/325x220",
+            "timeline": "2016-2017",
+            "company": "Paddle"
+        },
+        {
+            "title": "Gradschool 1",
+            "image": "http://placehold.it/325x220",
+            "timeline": "2016-2017",
+            "company": "Paddle"
+        },
+        {
+            "title": "Gradschool 2",
+            "image": "http://placehold.it/325x220",
+            "timeline": "2016-2017",
+            "company": "Paddle"
+        }
+    ]
+}

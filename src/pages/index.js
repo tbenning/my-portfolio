@@ -3,8 +3,9 @@ import Link from 'gatsby-link'
 import Header from '../components/header'
 import PortfolioCard from '../components/portfolioCard'
 import Toggle from 'react-toggle'
-import "react-toggle/style.css"
+import 'react-toggle/style.css'
 //https://github.com/aaronshaf/react-toggle
+import staticdata from '../../staticdata.json'
 
 const IndexPage = () => (
   <div>
@@ -25,16 +26,14 @@ const IndexPage = () => (
     <Toggle />
       
       <h2>Portfolio</h2>
-      <PortfolioCard
-        title="My Venture into Enterprise Design at IBM"
-        text="2016-2017"
-        image="http://placehold.it/325x220"
-        imageTitle="item 1" />
-      <PortfolioCard
-        title="Paddle: Launch, Iterate, Repeat"
-        text="2016-2017"
-        image="http://placehold.it/325x220"
-        imageTitle="Paddle" />
+
+      {staticdata.cells.map(cell => (
+        <PortfolioCard
+        title={cell.title}
+        text={cell.timeline}
+        image={cell.image}
+        imageTitle={cell.company} />
+      ))}
     </div>
 
   </div>
