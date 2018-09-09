@@ -7,6 +7,7 @@ import 'react-toggle/style.css'
 //https://github.com/aaronshaf/react-toggle
 import staticdata from '../../staticdata.json'
 
+
 const IndexPage = () => (
   <div>
     <div className="Hero">
@@ -24,9 +25,7 @@ const IndexPage = () => (
     <div className="portfolioItems wrapper">
   
     <Toggle />
-      
       <h2>Portfolio</h2>
-
       {staticdata.cells.map(cell => (
         <PortfolioCard
         title={cell.title}
