@@ -26,13 +26,15 @@ const IndexPage = () => (
   
     <Toggle />
       <h2>Portfolio</h2>
-      {staticdata.cells.map(cell => (
-        <PortfolioCard
-        title={cell.title}
-        text={cell.timeline}
-        image={cell.image}
-        imageTitle={cell.company} />
-      ))}
+      <div className="portfolio-grid">
+        {staticdata.cells.map(cell => (
+          <PortfolioCard
+          title={cell.title}
+          text={cell.timeline}
+          image={cell.image}
+          imageTitle={cell.company} />
+        ))}
+      </div>
     </div>
 
   </div>

@@ -1,0 +1,8 @@
+.portfolioCard{
+    width: 32%;
+    margin-bottom: 20px; 
+}
+
+.portfolioCard img{
+    width: 100%;
+}

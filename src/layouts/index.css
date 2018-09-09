@@ -72,6 +72,15 @@ a {
   width: 100%;
 }
 
+
+/* -- Portfolio Grid --*/
+.portfolio-grid{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
 /*---- Media Queries ----*/
 @media only screen and (max-width: 480px) {
   html {
